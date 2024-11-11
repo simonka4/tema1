@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopții - DoggyLand</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        body {
+            background-color: #fdf6e4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #FF7E47;
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffdeaa;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 100px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .header {
+            font-size: 32px;
+            color: #FF7E47;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            font-size: 16px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #FF7E47;
+            color: white;
+            font-size: 18px;
+        }
+
+        td {
+            color: #666;
+            vertical-align: middle;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .dog-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="despre_noi.html">Despre noi</a></li>
+            <li><a href="adoptii.html">Adopții</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="header">Câini Disponibili pentru Adopție</div>
+        <p>Explorează lista câinilor noștri disponibili și găsește-ți noul prieten loial!</p>
+
+        <table>
+            <tr>
+                <th>Imagine</th>
+                <th>Nume</th>
+                <th>Rasă</th>
+                <th>Vârstă</th>
+                <th>Descriere</th>
+            </tr>
+            <tr>
+                <td><img src="labrador.jpg" alt="Bella" class="dog-image"></td>
+                <td>Bella</td>
+                <td>Labrador</td>
+                <td>2 ani</td>
+                <td>Bella este o cățelușă iubitoare și jucăușă, perfectă pentru familiile cu copii.</td>
+            </tr>
+            <tr>
+                <td><img src="ciobanescgerm.jpg" alt="Max" class="dog-image"></td>
+                <td>Max</td>
+                <td>Ciobănesc German</td>
+                <td>3 ani</td>
+                <td>Max este energic și inteligent, ideal pentru stăpâni activi care iubesc aventura.</td>
+            </tr>
+            <tr>
+                <td><img src="buldogfran.jpg" alt="Luna" class="dog-image"></td>
+                <td>Luna</td>
+                <td>Buldog Englez</td>
+                <td>5 ani</td>
+                <td>Luna este blândă și liniștită, preferă plimbările scurte și este foarte afectuoasă.</td>
+            </tr>
+            <tr>
+                <td><img src="beagle.jpg" alt="Rocky" class="dog-image"></td>
+                <td>Rocky</td>
+                <td>Beagle</td>
+                <td>4 ani</td>
+                <td>Rocky este curios și inteligent, potrivit pentru familiile care își doresc un prieten curios.</td>
+            </tr>
+            <tr>
+                <td><img src="golden_retriever.jpg" alt="Sasha" class="dog-image"></td>
+                <td>Sasha</td>
+                <td>Golden Retriever</td>
+                <td>2 ani</td>
+                <td>Sasha este jucăușă și prietenoasă, se înțelege bine cu toată lumea, inclusiv cu alți câini.</td>
+            </tr>
+        </table>
+
+        <div class="footer">© 2023 DoggyLand - Toate drepturile rezervate.</div>
+    </div>
+</body>
+</html>

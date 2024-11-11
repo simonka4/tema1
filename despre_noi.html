@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre noi - DoggyLand</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fdf6e4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+       
+        .navbar {
+            width: 100%;
+            background-color: #FF7E47;
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffdeaa;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 100px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .header {
+            font-size: 32px;
+            color: #FF7E47;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subheader {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .mission {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .mission h2 {
+            color: #FF7E47;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .team {
+            margin: 30px 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            width: 220px;
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            font-size: 18px;
+            color: #FF7E47;
+            margin: 5px 0;
+        }
+
+        .team-member p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="despre_noi.html">Despre noi</a></li>
+            <li><a href="adoptii.html">Adopții</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+   
+    <div class="container">
+        <div class="header">Despre DoggyLand</div>
+        <div class="subheader">O echipă dedicată pentru prietenii noștri patrupezi</div>
+
+        <div class="mission">
+            <h2>Misiunea Noastră</h2>
+            <p>La DoggyLand, credem că fiecare câine merită un cămin plin de iubire și atenție. Misiunea noastră este să conectăm câinii fără stăpân cu familii responsabile care să le ofere un loc sigur și afectuos. De asemenea, promovăm adoptarea responsabilă și susținem educarea viitorilor stăpâni despre îngrijirea corectă a câinilor.</p>
+        </div>
+
+        <div class="team">
+            <h2>Echipa noastră</h2>
+            <div class="team-member">
+                <img src="eu.jfif" alt="Membru echipă">
+                <h3>Banu Simona</h3>
+                <p>Manager</p>
+                <p>Cu o experiență de peste 10 ani în îngrijirea animalelor, Maria coordonează activitatea echipei și se asigură că fiecare câine primește atenția și îngrijirea de care are nevoie.</p>
+            </div>
+            <div class="team-member">
+                <img src="harry.jpg" alt="Membru echipă">
+                <h3>Andrei Ionescu</h3>
+                <p>Specialist în comportamentul canin</p>
+                <p>Andrei este responsabil cu evaluarea și pregătirea câinilor pentru adopție, ajutându-i să se adapteze în noile lor cămine.</p>
+            </div>
+            <div class="team-member">
+                <img src="femeie.jpg" alt="Membru echipă">
+                <h3>Laura Dumitrescu</h3>
+                <p>Responsabil Adopții</p>
+                <p>Laura este cea care intermediază legătura dintre câini și viitoarele lor familii, asigurându-se că fiecare adopție este potrivită și bine pregătită.</p>
+            </div>
+        </div>
+
+        <div class="footer">© 2023 DoggyLand - Toate drepturile rezervate.</div>
+    </div>
+</body>
+</html>
